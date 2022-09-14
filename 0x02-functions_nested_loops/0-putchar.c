@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "_putcchar";
+	char *sh = "_putchar";
 
 	while (*sh)
 	{
