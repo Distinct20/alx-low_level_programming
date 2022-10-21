@@ -4,7 +4,8 @@
  * @h: singly linked list.
  * Return: The number of elements in the list_t list.
  */
-size_t print_list(const listint_t *h)
+
+size_t print_list(const list_t *h)
 {
 	size_t nelem;
 		
@@ -19,6 +20,5 @@ size_t print_list(const listint_t *h)
 		h = h->next;
 		nelem++;
 	}
-
 	return (nelem);
 }
