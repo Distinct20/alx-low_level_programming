@@ -1,8 +1,3 @@
-/*
- * File: 0-print_listint.c
- * Auth: Tina Mene
- */
-
 #include "lists.h"
 #include <stdio.h>
 
